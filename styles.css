@@ -1,0 +1,122 @@
+/*--Color Pallette--
+#397367 Myrtle Green
+#63CCCA Medium Turquoise
+#5DA399 Polished Pine
+#42858C Teal Blue
+#35393C Onyx --*/
+
+/*--Global Style--*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-color: #5DA399;
+    font-family: Sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+    margin: 0;
+
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    margin: 15px auto; 
+}
+
+h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+#tagline {
+    color: #5DA399;
+}
+
+a {
+    color: #63CCCA;
+}
+
+a:hover {
+    color: #42858C;
+    text-decoration: none; 
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;
+}
+
+/*--Header and Footer--*/
+
+header, footer {
+    background: #35393C;
+    color: #63CCCA;
+}
+
+/*--Header--*/
+.profile-img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+header {
+    text-align: center;
+}
+
+
+header h1, header h2, header h3 {
+    color: #63CCCA;
+}
+
+/*--Footer--*/
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/*--Section-Colors--*/
+
+.color-1 {
+    background: #42858C;
+}
+
+.color-2 {
+    background: #397367;
+}
+
+.color-3 {
+    background:  #5DA399;
+}
+
+.color-4 {
+    background: #63CCCA;
+}
